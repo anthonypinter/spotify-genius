@@ -20,7 +20,7 @@ username = 'apinter' # change this to your spotify username
 
 # ------------------------- SPOTIFY API HOOKIN
 
-token = util.prompt_for_user_token(username, scope, client_id='8ea9544c774649e49a2c2e41feb74396', client_secret='9df779bfb7fb45649869fbd792e9ae47', redirect_uri='http://localhost/')
+token = util.prompt_for_user_token(username, scope, client_id='8ea9544c774649e49a2c2e41feb74396', client_secret='', redirect_uri='http://localhost/')
 spotify = spotipy.Spotify(auth=token) # this is the thing that gets us into the API
 
 # ------------------------- GENIUS API HOOKIN
